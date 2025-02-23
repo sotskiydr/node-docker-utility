@@ -1,0 +1,32 @@
+{
+  "name": "docker-utility",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "dev": "nodemon src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sotskiydr/node-docker-utility.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sotskiydr/node-docker-utility/issues"
+  },
+  "homepage": "https://github.com/sotskiydr/node-docker-utility#readme",
+  "devDependencies": {
+    "@types/node": "22.13.5",
+    "fs-extra": "11.3.0",
+    "ts-node": "10.9.2",
+    "typescript": "5.7.3"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
